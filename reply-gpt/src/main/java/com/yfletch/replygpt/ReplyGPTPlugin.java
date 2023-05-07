@@ -74,7 +74,7 @@ public class ReplyGPTPlugin extends Plugin
 		{
 			return;
 		}
-
+		log.info(event.toString()); //to remove
 		log.info(event.toString());
 
 		if (event.getType() == ChatMessageType.PRIVATECHAT
