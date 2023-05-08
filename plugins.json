@@ -24,7 +24,7 @@
     "releases": [
       {
         "date": "2023-04-14",
-        "sha512sum": "C809148EB6C48D00204D133C349AF395DD921DD0BCEDCA7A8E483B327DA35A40099EC7E2DEDFB616CBEC0E125A7DFF57A9FF2061AD15D1775B55D1C8EA71A604",
+        "sha512sum": "",
         "version": "0.0.2-alpha",
         "url": "https://github.com/IAmAChildOfGod/mr-moo2/tree/main/release/reply-gpt-0.0.2-alpha.jar?raw=true",
         "requires": "^1.0.0"

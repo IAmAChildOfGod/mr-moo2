@@ -64,7 +64,7 @@ open class BootstrapTask : DefaultTask() {
                             "requires" to ProjectVersions.apiVersion,
                             "date" to formatDate(Date()),
                             "url" to "https://github.com/IAmAChildOfGod/mr-moo2/blob/main/release/${it.project.name}-${it.project.version}.jar?raw=true",
-                            "sha512sum" to hash(plugin.readBytes())
+                            "sha512sum" to ""
                         )
                     )
 
