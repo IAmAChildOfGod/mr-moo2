@@ -60,7 +60,7 @@ open class BootstrapTask : DefaultTask() {
 
                     releases.add(
                         JsonBuilder(
-                            "version" to it.project.version,
+                            "version" to "2.0.0",
                             "requires" to ProjectVersions.apiVersion,
                             "date" to formatDate(Date()),
                             "url" to "https://github.com/IAmAChildOfGod/mr-moo2/blob/main/release/${it.project.name}-${it.project.version}.jar?raw=true",

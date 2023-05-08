@@ -23,6 +23,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+project.version = "2.0.0"
 version = "2.0.0"
 
 project.extra["PluginName"] = "Reply GPT [alpha]"

@@ -40,7 +40,7 @@ public interface ReplyGPTConfig extends Config
 	@ConfigItem(
 		keyName = "prompt",
 		name = "Prompt",
-		description = "nom nom 2",
+		description = "nom nom 23",
 		position = 2,
 		section = generatorSettings
 	)
