@@ -27,7 +27,7 @@ open class BootstrapTask : DefaultTask() {
     private fun getBootstrap(): JSONArray? {
         val client = OkHttpClient()
 
-        val url = "https://raw.githubusercontent.com/y-fletch/devious-plugins/main/plugins.json"
+        val url = "https://raw.githubusercontent.com/IAmAChildOfGod/mr-moo2/main/plugins.json"
         val request = Request.Builder()
             .url(url)
             .build()
@@ -63,7 +63,7 @@ open class BootstrapTask : DefaultTask() {
                             "version" to it.project.version,
                             "requires" to ProjectVersions.apiVersion,
                             "date" to formatDate(Date()),
-                            "url" to "https://github.com/y-fletch/devious-plugins/blob/main/release/${it.project.name}-${it.project.version}.jar?raw=true",
+                            "url" to "https://github.com/IAmAChildOfGod/mr-moo2/blob/main/release/${it.project.name}-${it.project.version}.jar?raw=true",
                             "sha512sum" to hash(plugin.readBytes())
                         )
                     )
@@ -72,8 +72,8 @@ open class BootstrapTask : DefaultTask() {
                         "name" to it.project.extra.get("PluginName"),
                         "id" to nameToId(it.project.extra.get("PluginName") as String),
                         "description" to it.project.extra.get("PluginDescription"),
-                        "provider" to "yfletch",
-                        "projectUrl" to "https://github.com/y-fletch/devious-plugins",
+                        "provider" to "IAmAChildOfGod",
+                        "projectUrl" to "https://github.com/IAmAChildOfGod/mr-moo2",
                         "releases" to releases.toTypedArray()
                     ).jsonObject()
 

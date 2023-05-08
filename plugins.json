@@ -1,9 +1,9 @@
 [
   {
     "projectUrl": "https://github.com/y-fletch/devious-plugins",
-    "provider": "yfletch",
-    "name": "Action bars [alpha]",
-    "description": "Keybind-able action bars",
+    "provider": "IAmAChildOfGod",
+    "name": "Action bars [alpha]2",
+    "description": "Keybind-able action bars2",
     "id": "actionbarsalpha-plugin",
     "releases": [
       {
@@ -16,17 +16,17 @@
     ]
   },
   {
-    "projectUrl": "https://github.com/y-fletch/devious-plugins",
-    "provider": "yfletch",
-    "name": "Reply GPT [alpha]",
-    "description": "Behold the power of AI",
+    "projectUrl": "https://github.com/IAmAChildOfGod/mr-moo2",
+    "provider": "IAmAChildOfGod",
+    "name": "Reply GPT [alpha]2",
+    "description": "Behold the power of AI2",
     "id": "replygptalpha-plugin",
     "releases": [
       {
         "date": "2023-04-14",
         "sha512sum": "C809148EB6C48D00204D133C349AF395DD921DD0BCEDCA7A8E483B327DA35A40099EC7E2DEDFB616CBEC0E125A7DFF57A9FF2061AD15D1775B55D1C8EA71A604",
         "version": "0.0.2-alpha",
-        "url": "https://github.com/y-fletch/devious-plugins/blob/main/release/reply-gpt-0.0.2-alpha.jar?raw=true",
+        "url": "https://github.com/IAmAChildOfGod/mr-moo2/tree/main/release/reply-gpt-0.0.2-alpha.jar?raw=true",
         "requires": "^1.0.0"
       }
     ]
