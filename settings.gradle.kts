@@ -1,6 +1,5 @@
 rootProject.name = "devious-plugins"
 
-include(":action-bars")
 include(":reply-gpt")
 
 for (project in rootProject.children) {
